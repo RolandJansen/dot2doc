@@ -1,3 +1,4 @@
+using dot2doc;
 using System;
 using Xunit;
 
@@ -8,7 +9,7 @@ namespace dot2docTests
         [Fact]
         public void Test1()
         {
-
+            DocumentGenerator.CreateDocx("TestDoc.docx");
         }
     }
 }
